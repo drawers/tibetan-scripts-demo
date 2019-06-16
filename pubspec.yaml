@@ -1,0 +1,83 @@
+name: tibetan_scripts_demo
+description: A new Flutter application.
+
+
+version: 1.0.3+3
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  intl: ^0.15.4
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+  auto_size_text: ^2.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: "^0.7.2"
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon/tibetan_icon.png"
+
+flutter:
+
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: Art
+      fonts:
+        - asset: assets/fonts/Qomolangma-Art.ttf
+    - family: Betsu
+      fonts:
+        - asset: assets/fonts/Qomolangma-Betsu.ttf
+    - family: Chuyig
+      fonts:
+        - asset: assets/fonts/Qomolangma-Chuyig.ttf
+    - family: Drutsa
+      fonts:
+        - asset: assets/fonts/Qomolangma-Drutsa.ttf
+    - family: Dunhuang
+      fonts:
+        - asset: assets/fonts/Qomolangma-Dunhuang.ttf
+    - family: Edict
+      fonts:
+        - asset: assets/fonts/Qomolangma-Edict.ttf
+    - family: Horyig
+      fonts:
+        - asset: assets/fonts/Qomolangma-Horyig.ttf
+    - family: Tsumachu
+      fonts:
+        - asset: assets/fonts/Qomolangma-Tsumachu.ttf
+    - family: Tsuring
+      fonts:
+        - asset: assets/fonts/Qomolangma-Tsuring.ttf
+    - family: Tsutong
+      fonts:
+        - asset: assets/fonts/Qomolangma-Tsutong.ttf
+    - family: UchenSarchen
+      fonts:
+        - asset: assets/fonts/Qomolangma-UchenSarchen.ttf
+    - family: UchenSarchhung
+      fonts:
+        - asset: assets/fonts/Qomolangma-UchenSarchung.ttf
+    - family: UchenSuring
+      fonts:
+        - asset: assets/fonts/Qomolangma-UchenSuring.ttf
+    - family: UchenSarchhung
+      fonts:
+        - asset: assets/fonts/Qomolangma-UchenSarchung.ttf
+    - family: UchenSutung
+      fonts:
+        - asset: assets/fonts/Qomolangma-UchenSutung.ttf
+    - family: Woodblock
+      fonts:
+        - asset: assets/fonts/Qomolangma-Woodblock.ttf
+
+  uses-material-design: true
